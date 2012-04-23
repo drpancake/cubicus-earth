@@ -8,9 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 #import "CEEarthController.h"
+#import "CBShared.h"
 
 @interface CEAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (nonatomic, strong) CEEarthController *earthController;
+@property (nonatomic, strong) CBAppClient *client;
 
 @end
