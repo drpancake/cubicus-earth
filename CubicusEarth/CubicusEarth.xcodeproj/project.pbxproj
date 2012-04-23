@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A42C78815448D2100F3F6F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C78715448D2100F3F6F2 /* Cocoa.framework */; };
+		1A42C79215448D2200F3F6F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C79015448D2200F3F6F2 /* InfoPlist.strings */; };
+		1A42C79415448D2200F3F6F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C79315448D2200F3F6F2 /* main.m */; };
+		1A42C79815448D2200F3F6F2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C79615448D2200F3F6F2 /* Credits.rtf */; };
+		1A42C79B15448D2200F3F6F2 /* CEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C79A15448D2200F3F6F2 /* CEAppDelegate.m */; };
+		1A42C79E15448D2200F3F6F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C79C15448D2200F3F6F2 /* MainMenu.xib */; };
+		1A42C7A715448EBB00F3F6F2 /* JPEarthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C7A615448EBB00F3F6F2 /* JPEarthViewController.m */; };
+		1A42C7A915448F0E00F3F6F2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C7A815448F0E00F3F6F2 /* WebKit.framework */; };
+		1A42C7AD154490B500F3F6F2 /* CEEarthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C7AB154490B500F3F6F2 /* CEEarthController.m */; };
+		1A42C7AE154490B500F3F6F2 /* CEEarthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C7AC154490B500F3F6F2 /* CEEarthController.xib */; };
+		1A42C7B01544935600F3F6F2 /* earth.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C7AF1544935600F3F6F2 /* earth.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A42C78315448D2100F3F6F2 /* CubicusEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubicusEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A42C78715448D2100F3F6F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A42C78A15448D2100F3F6F2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A42C78B15448D2100F3F6F2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A42C78C15448D2100F3F6F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A42C78F15448D2200F3F6F2 /* CubicusEarth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CubicusEarth-Info.plist"; sourceTree = "<group>"; };
+		1A42C79115448D2200F3F6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A42C79315448D2200F3F6F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A42C79515448D2200F3F6F2 /* CubicusEarth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CubicusEarth-Prefix.pch"; sourceTree = "<group>"; };
+		1A42C79715448D2200F3F6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1A42C79915448D2200F3F6F2 /* CEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEAppDelegate.h; sourceTree = "<group>"; };
+		1A42C79A15448D2200F3F6F2 /* CEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEAppDelegate.m; sourceTree = "<group>"; };
+		1A42C79D15448D2200F3F6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1A42C7A515448EBB00F3F6F2 /* JPEarthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPEarthViewController.h; path = ../../../../../../repos/JPEarthViewController/JPEarthViewController.h; sourceTree = "<group>"; };
+		1A42C7A615448EBB00F3F6F2 /* JPEarthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPEarthViewController.m; path = ../../../../../../repos/JPEarthViewController/JPEarthViewController.m; sourceTree = "<group>"; };
+		1A42C7A815448F0E00F3F6F2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1A42C7AA154490B500F3F6F2 /* CEEarthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEEarthController.h; sourceTree = "<group>"; };
+		1A42C7AB154490B500F3F6F2 /* CEEarthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEEarthController.m; sourceTree = "<group>"; };
+		1A42C7AC154490B500F3F6F2 /* CEEarthController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CEEarthController.xib; sourceTree = "<group>"; };
+		1A42C7AF1544935600F3F6F2 /* earth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = earth.html; path = ../../../../../../repos/JPEarthViewController/earth.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A42C78015448D2100F3F6F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C7A915448F0E00F3F6F2 /* WebKit.framework in Frameworks */,
+				1A42C78815448D2100F3F6F2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A42C77815448D2100F3F6F2 = {
+			isa = PBXGroup;
+			children = (
+				1A42C78D15448D2100F3F6F2 /* CubicusEarth */,
+				1A42C78615448D2100F3F6F2 /* Frameworks */,
+				1A42C78415448D2100F3F6F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A42C78415448D2100F3F6F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C78315448D2100F3F6F2 /* CubicusEarth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A42C78615448D2100F3F6F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C7A415448D3D00F3F6F2 /* JPEarthViewController */,
+				1A42C7A815448F0E00F3F6F2 /* WebKit.framework */,
+				1A42C78715448D2100F3F6F2 /* Cocoa.framework */,
+				1A42C78915448D2100F3F6F2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A42C78915448D2100F3F6F2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C78A15448D2100F3F6F2 /* AppKit.framework */,
+				1A42C78B15448D2100F3F6F2 /* CoreData.framework */,
+				1A42C78C15448D2100F3F6F2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A42C78D15448D2100F3F6F2 /* CubicusEarth */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C79915448D2200F3F6F2 /* CEAppDelegate.h */,
+				1A42C79A15448D2200F3F6F2 /* CEAppDelegate.m */,
+				1A42C79C15448D2200F3F6F2 /* MainMenu.xib */,
+				1A42C78E15448D2200F3F6F2 /* Supporting Files */,
+				1A42C7AA154490B500F3F6F2 /* CEEarthController.h */,
+				1A42C7AB154490B500F3F6F2 /* CEEarthController.m */,
+				1A42C7AC154490B500F3F6F2 /* CEEarthController.xib */,
+			);
+			path = CubicusEarth;
+			sourceTree = "<group>";
+		};
+		1A42C78E15448D2200F3F6F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C78F15448D2200F3F6F2 /* CubicusEarth-Info.plist */,
+				1A42C79015448D2200F3F6F2 /* InfoPlist.strings */,
+				1A42C79315448D2200F3F6F2 /* main.m */,
+				1A42C79515448D2200F3F6F2 /* CubicusEarth-Prefix.pch */,
+				1A42C79615448D2200F3F6F2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A42C7A415448D3D00F3F6F2 /* JPEarthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A42C7AF1544935600F3F6F2 /* earth.html */,
+				1A42C7A515448EBB00F3F6F2 /* JPEarthViewController.h */,
+				1A42C7A615448EBB00F3F6F2 /* JPEarthViewController.m */,
+			);
+			name = JPEarthViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A42C78215448D2100F3F6F2 /* CubicusEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A42C7A115448D2200F3F6F2 /* Build configuration list for PBXNativeTarget "CubicusEarth" */;
+			buildPhases = (
+				1A42C77F15448D2100F3F6F2 /* Sources */,
+				1A42C78015448D2100F3F6F2 /* Frameworks */,
+				1A42C78115448D2100F3F6F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubicusEarth;
+			productName = CubicusEarth;
+			productReference = 1A42C78315448D2100F3F6F2 /* CubicusEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A42C77A15448D2100F3F6F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CE;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1A42C77D15448D2100F3F6F2 /* Build configuration list for PBXProject "CubicusEarth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A42C77815448D2100F3F6F2;
+			productRefGroup = 1A42C78415448D2100F3F6F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A42C78215448D2100F3F6F2 /* CubicusEarth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A42C78115448D2100F3F6F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C79215448D2200F3F6F2 /* InfoPlist.strings in Resources */,
+				1A42C79815448D2200F3F6F2 /* Credits.rtf in Resources */,
+				1A42C79E15448D2200F3F6F2 /* MainMenu.xib in Resources */,
+				1A42C7AE154490B500F3F6F2 /* CEEarthController.xib in Resources */,
+				1A42C7B01544935600F3F6F2 /* earth.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A42C77F15448D2100F3F6F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C79415448D2200F3F6F2 /* main.m in Sources */,
+				1A42C79B15448D2200F3F6F2 /* CEAppDelegate.m in Sources */,
+				1A42C7A715448EBB00F3F6F2 /* JPEarthViewController.m in Sources */,
+				1A42C7AD154490B500F3F6F2 /* CEEarthController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A42C79015448D2200F3F6F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42C79115448D2200F3F6F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A42C79615448D2200F3F6F2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42C79715448D2200F3F6F2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1A42C79C15448D2200F3F6F2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42C79D15448D2200F3F6F2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A42C79F15448D2200F3F6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A42C7A015448D2200F3F6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A42C7A215448D2200F3F6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubicusEarth/CubicusEarth-Prefix.pch";
+				INFOPLIST_FILE = "CubicusEarth/CubicusEarth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A42C7A315448D2200F3F6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubicusEarth/CubicusEarth-Prefix.pch";
+				INFOPLIST_FILE = "CubicusEarth/CubicusEarth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A42C77D15448D2100F3F6F2 /* Build configuration list for PBXProject "CubicusEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A42C79F15448D2200F3F6F2 /* Debug */,
+				1A42C7A015448D2200F3F6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A42C7A115448D2200F3F6F2 /* Build configuration list for PBXNativeTarget "CubicusEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A42C7A215448D2200F3F6F2 /* Debug */,
+				1A42C7A315448D2200F3F6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A42C77A15448D2100F3F6F2 /* Project object */;
+}
