@@ -20,7 +20,7 @@
     CBHost *host = [[CBHost alloc] initWithAddress:CE_DAEMON_HOST port:[NSNumber numberWithInt:CE_DAEMON_PORT]];
     self.client = [[CBAppClient alloc] initWithHost:host applicationName:CE_APP_NAME];
     
-    self.earthController = [[CEEarthController alloc] init];
+    self.earthController = [[CEEarthController alloc] initWithClient:self.client];
     [self.earthController showWindow:nil];
     [self.earthController.window setContentSize:NSMakeSize(800, 600)];
     
