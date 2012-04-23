@@ -13,11 +13,9 @@
 		1A42C79815448D2200F3F6F2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C79615448D2200F3F6F2 /* Credits.rtf */; };
 		1A42C79B15448D2200F3F6F2 /* CEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C79A15448D2200F3F6F2 /* CEAppDelegate.m */; };
 		1A42C79E15448D2200F3F6F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C79C15448D2200F3F6F2 /* MainMenu.xib */; };
-		1A42C7A715448EBB00F3F6F2 /* JPEarthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C7A615448EBB00F3F6F2 /* JPEarthViewController.m */; };
 		1A42C7A915448F0E00F3F6F2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42C7A815448F0E00F3F6F2 /* WebKit.framework */; };
 		1A42C7AD154490B500F3F6F2 /* CEEarthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C7AB154490B500F3F6F2 /* CEEarthController.m */; };
 		1A42C7AE154490B500F3F6F2 /* CEEarthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C7AC154490B500F3F6F2 /* CEEarthController.xib */; };
-		1A42C7B01544935600F3F6F2 /* earth.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A42C7AF1544935600F3F6F2 /* earth.html */; };
 		1A42C7EC154578F900F3F6F2 /* CBAbstractClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C7B6154578F900F3F6F2 /* CBAbstractClient.m */; };
 		1A42C7F4154578F900F3F6F2 /* CBBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C7CA154578F900F3F6F2 /* CBBox.m */; };
 		1A42C7F5154578F900F3F6F2 /* CBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C7CC154578F900F3F6F2 /* CBButton.m */; };
@@ -47,6 +45,8 @@
 		1A42CB37154579C600F3F6F2 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C903154579C400F3F6F2 /* SBJsonTokeniser.m */; };
 		1A42CB38154579C600F3F6F2 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C905154579C400F3F6F2 /* SBJsonUTF8Stream.m */; };
 		1A42CB39154579C600F3F6F2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C907154579C400F3F6F2 /* SBJsonWriter.m */; };
+		1A42CC9415457AFC00F3F6F2 /* earth.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A42CC9015457AFC00F3F6F2 /* earth.html */; };
+		1A42CC9515457AFC00F3F6F2 /* JPEarthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42CC9215457AFC00F3F6F2 /* JPEarthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,13 +63,10 @@
 		1A42C79915448D2200F3F6F2 /* CEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEAppDelegate.h; sourceTree = "<group>"; };
 		1A42C79A15448D2200F3F6F2 /* CEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEAppDelegate.m; sourceTree = "<group>"; };
 		1A42C79D15448D2200F3F6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		1A42C7A515448EBB00F3F6F2 /* JPEarthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPEarthViewController.h; path = ../../../../../../repos/JPEarthViewController/JPEarthViewController.h; sourceTree = "<group>"; };
-		1A42C7A615448EBB00F3F6F2 /* JPEarthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPEarthViewController.m; path = ../../../../../../repos/JPEarthViewController/JPEarthViewController.m; sourceTree = "<group>"; };
 		1A42C7A815448F0E00F3F6F2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		1A42C7AA154490B500F3F6F2 /* CEEarthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEEarthController.h; sourceTree = "<group>"; };
 		1A42C7AB154490B500F3F6F2 /* CEEarthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEEarthController.m; sourceTree = "<group>"; };
 		1A42C7AC154490B500F3F6F2 /* CEEarthController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CEEarthController.xib; sourceTree = "<group>"; };
-		1A42C7AF1544935600F3F6F2 /* earth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = earth.html; path = ../../../../../../repos/JPEarthViewController/earth.html; sourceTree = "<group>"; };
 		1A42C7B5154578F900F3F6F2 /* CBAbstractClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAbstractClient.h; sourceTree = "<group>"; };
 		1A42C7B6154578F900F3F6F2 /* CBAbstractClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAbstractClient.m; sourceTree = "<group>"; };
 		1A42C7BA154578F900F3F6F2 /* CBShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBShared.h; sourceTree = "<group>"; };
@@ -133,6 +130,9 @@
 		1A42C905154579C400F3F6F2 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = Classes/SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		1A42C906154579C400F3F6F2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = Classes/SBJsonWriter.h; sourceTree = "<group>"; };
 		1A42C907154579C400F3F6F2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = Classes/SBJsonWriter.m; sourceTree = "<group>"; };
+		1A42CC9015457AFC00F3F6F2 /* earth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = earth.html; sourceTree = "<group>"; };
+		1A42CC9115457AFC00F3F6F2 /* JPEarthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEarthViewController.h; sourceTree = "<group>"; };
+		1A42CC9215457AFC00F3F6F2 /* JPEarthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEarthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				1A42C7B3154578F900F3F6F2 /* cubicus-objc-shared */,
+				1A42CC8F15457AFC00F3F6F2 /* JPEarthViewController */,
 				1A42C803154579C400F3F6F2 /* CocoaAsyncSocket */,
 				1A42C8EB154579C400F3F6F2 /* SBJson */,
-				1A42C7A415448D3D00F3F6F2 /* JPEarthViewController */,
 				1A42C7A815448F0E00F3F6F2 /* WebKit.framework */,
 				1A42C78715448D2100F3F6F2 /* Cocoa.framework */,
 				1A42C78915448D2100F3F6F2 /* Other Frameworks */,
@@ -213,16 +213,6 @@
 				1A42C79615448D2200F3F6F2 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1A42C7A415448D3D00F3F6F2 /* JPEarthViewController */ = {
-			isa = PBXGroup;
-			children = (
-				1A42C7AF1544935600F3F6F2 /* earth.html */,
-				1A42C7A515448EBB00F3F6F2 /* JPEarthViewController.h */,
-				1A42C7A615448EBB00F3F6F2 /* JPEarthViewController.m */,
-			);
-			name = JPEarthViewController;
 			sourceTree = "<group>";
 		};
 		1A42C7B3154578F900F3F6F2 /* cubicus-objc-shared */ = {
@@ -336,6 +326,17 @@
 			path = ../Lib/SBJson;
 			sourceTree = "<group>";
 		};
+		1A42CC8F15457AFC00F3F6F2 /* JPEarthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A42CC9015457AFC00F3F6F2 /* earth.html */,
+				1A42CC9115457AFC00F3F6F2 /* JPEarthViewController.h */,
+				1A42CC9215457AFC00F3F6F2 /* JPEarthViewController.m */,
+			);
+			name = JPEarthViewController;
+			path = ../../../../../../repos/JPEarthViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -392,7 +393,7 @@
 				1A42C79815448D2200F3F6F2 /* Credits.rtf in Resources */,
 				1A42C79E15448D2200F3F6F2 /* MainMenu.xib in Resources */,
 				1A42C7AE154490B500F3F6F2 /* CEEarthController.xib in Resources */,
-				1A42C7B01544935600F3F6F2 /* earth.html in Resources */,
+				1A42CC9415457AFC00F3F6F2 /* earth.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +406,6 @@
 			files = (
 				1A42C79415448D2200F3F6F2 /* main.m in Sources */,
 				1A42C79B15448D2200F3F6F2 /* CEAppDelegate.m in Sources */,
-				1A42C7A715448EBB00F3F6F2 /* JPEarthViewController.m in Sources */,
 				1A42C7AD154490B500F3F6F2 /* CEEarthController.m in Sources */,
 				1A42C7EC154578F900F3F6F2 /* CBAbstractClient.m in Sources */,
 				1A42C7F4154578F900F3F6F2 /* CBBox.m in Sources */,
@@ -436,6 +436,7 @@
 				1A42CB37154579C600F3F6F2 /* SBJsonTokeniser.m in Sources */,
 				1A42CB38154579C600F3F6F2 /* SBJsonUTF8Stream.m in Sources */,
 				1A42CB39154579C600F3F6F2 /* SBJsonWriter.m in Sources */,
+				1A42CC9515457AFC00F3F6F2 /* JPEarthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
