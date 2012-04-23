@@ -47,6 +47,7 @@
 		1A42CB39154579C600F3F6F2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42C907154579C400F3F6F2 /* SBJsonWriter.m */; };
 		1A42CC9415457AFC00F3F6F2 /* earth.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A42CC9015457AFC00F3F6F2 /* earth.html */; };
 		1A42CC9515457AFC00F3F6F2 /* JPEarthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42CC9215457AFC00F3F6F2 /* JPEarthViewController.m */; };
+		1A42CC9915457BD200F3F6F2 /* CubicusEarth.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42CC9815457BD100F3F6F2 /* CubicusEarth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +134,8 @@
 		1A42CC9015457AFC00F3F6F2 /* earth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = earth.html; sourceTree = "<group>"; };
 		1A42CC9115457AFC00F3F6F2 /* JPEarthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEarthViewController.h; sourceTree = "<group>"; };
 		1A42CC9215457AFC00F3F6F2 /* JPEarthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEarthViewController.m; sourceTree = "<group>"; };
+		1A42CC9715457BD100F3F6F2 /* CubicusEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicusEarth.h; sourceTree = "<group>"; };
+		1A42CC9815457BD100F3F6F2 /* CubicusEarth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicusEarth.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +195,8 @@
 		1A42C78D15448D2100F3F6F2 /* CubicusEarth */ = {
 			isa = PBXGroup;
 			children = (
+				1A42CC9715457BD100F3F6F2 /* CubicusEarth.h */,
+				1A42CC9815457BD100F3F6F2 /* CubicusEarth.m */,
 				1A42C79915448D2200F3F6F2 /* CEAppDelegate.h */,
 				1A42C79A15448D2200F3F6F2 /* CEAppDelegate.m */,
 				1A42C79C15448D2200F3F6F2 /* MainMenu.xib */,
@@ -437,6 +442,7 @@
 				1A42CB38154579C600F3F6F2 /* SBJsonUTF8Stream.m in Sources */,
 				1A42CB39154579C600F3F6F2 /* SBJsonWriter.m in Sources */,
 				1A42CC9515457AFC00F3F6F2 /* JPEarthViewController.m in Sources */,
+				1A42CC9915457BD200F3F6F2 /* CubicusEarth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
