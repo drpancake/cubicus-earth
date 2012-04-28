@@ -63,7 +63,15 @@
 - (void)manager:(CBContextManager *)manager didReceiveEvent:(CBEvent *)event
 {
     if (event.elementID == 1) {
-        // TODO: do something to earth controller
+        NSDictionary *content = event.content;
+        
+        // TODO: clients should normalise acceleration values before transmitting them
+        // (but they're probably already 0-1 ratios anyway)
+        int multiplier = 150;
+        
+        [self.earthViewController panX:[[content objectForKey:@"x"] doubleValue] * multiplier
+                                     y:[[content objectForKey:@"y"] doubleValue] * multiplier
+                                  zoom:[[content objectForKey:@"z"] doubleValue] * multiplier];
     }
 }
 
