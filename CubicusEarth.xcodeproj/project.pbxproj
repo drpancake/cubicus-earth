@@ -49,6 +49,7 @@
 		1ADE238E154C98C6009B2C29 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE2382154C98C6009B2C29 /* SBJsonWriter.m */; };
 		1ADE2399154C98F3009B2C29 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE2396154C98F3009B2C29 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1ADE239A154C98F3009B2C29 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE2398154C98F3009B2C29 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1ADE23A3154CAD9E009B2C29 /* CBVerticalBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE23A2154CAD9E009B2C29 /* CBVerticalBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,8 @@
 		1ADE2396154C98F3009B2C29 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Lib/CocoaAsyncSocket/RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
 		1ADE2397154C98F3009B2C29 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = Lib/CocoaAsyncSocket/RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
 		1ADE2398154C98F3009B2C29 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = Lib/CocoaAsyncSocket/RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		1ADE23A1154CAD9E009B2C29 /* CBVerticalBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBVerticalBox.h; sourceTree = "<group>"; };
+		1ADE23A2154CAD9E009B2C29 /* CBVerticalBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBVerticalBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +264,8 @@
 				1ADE2331154C9891009B2C29 /* CBCanvas.m */,
 				1ADE2332154C9891009B2C29 /* CBHorizontalBox.h */,
 				1ADE2333154C9891009B2C29 /* CBHorizontalBox.m */,
+				1ADE23A1154CAD9E009B2C29 /* CBVerticalBox.h */,
+				1ADE23A2154CAD9E009B2C29 /* CBVerticalBox.m */,
 				1ADE2334154C9891009B2C29 /* CBLayout.h */,
 				1ADE2335154C9891009B2C29 /* CBLayout.m */,
 				1ADE2336154C9891009B2C29 /* CBLayoutElement.h */,
@@ -448,6 +453,7 @@
 				1ADE238E154C98C6009B2C29 /* SBJsonWriter.m in Sources */,
 				1ADE2399154C98F3009B2C29 /* AsyncSocket.m in Sources */,
 				1ADE239A154C98F3009B2C29 /* AsyncUdpSocket.m in Sources */,
+				1ADE23A3154CAD9E009B2C29 /* CBVerticalBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
