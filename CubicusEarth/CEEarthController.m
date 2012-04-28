@@ -70,8 +70,7 @@
         int multiplier = 150;
         
         [self.earthViewController panX:[[content objectForKey:@"x"] doubleValue] * multiplier
-                                     y:[[content objectForKey:@"y"] doubleValue] * multiplier
-                                  zoom:[[content objectForKey:@"z"] doubleValue] * multiplier];
+                                     y:[[content objectForKey:@"y"] doubleValue] * multiplier];
     }
 }
 
