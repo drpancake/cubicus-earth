@@ -10,6 +10,14 @@
 #import "JPEarthViewController.h"
 #import "CBShared.h"
 
+enum {
+    CEEarthControllerElementRoot = 1,
+    CEEarthControllerElementZoomBox,
+    CEEarthControllerElementZoomIn,
+    CEEarthControllerElementZoomOut,
+    CEEarthControllerElementAccelerator
+} CEEarthControllerElement;
+
 @interface CEEarthController : NSWindowController <CBContextManagerDelegate>
 
 - (id)initWithClient:(CBAppClient *)client;

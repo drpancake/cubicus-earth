@@ -35,19 +35,38 @@
 
 - (void)createCubicusContext
 {
-    // Accelerator
-    CBAccelerator *accelerator = [[CBAccelerator alloc] init];
-    accelerator.elementID = 1;
-    accelerator.ratio = 1;
+    // Zoom buttons in a vertical container
     
-    // Container
-    CBHorizontalBox *box = [[CBHorizontalBox alloc] init];
-    box.elementID = 2;
-    box.ratio = 1;
-    box.items = [NSArray arrayWithObject:accelerator];
+    CBButton *zoomIn = [[CBButton alloc] init];
+    zoomIn.elementID = CEEarthControllerElementZoomIn;
+    zoomIn.ratio = 0.5;
+    zoomIn.label = @"Forward";
+    
+    CBButton *zoomOut = [[CBButton alloc] init];
+    zoomOut.elementID = CEEarthControllerElementZoomOut;
+    zoomOut.ratio = 0.5;
+    zoomOut.label = @"Back";
+    
+    CBVerticalBox *zoomBox = [[CBVerticalBox alloc] init];
+    zoomBox.elementID = CEEarthControllerElementZoomBox;
+    zoomBox.ratio = 0.25; // 25% of entire screen width
+    zoomBox.items = [NSArray arrayWithObjects:zoomIn, zoomOut, nil];
+    
+    // Accelerator
+    
+    CBAccelerator *accelerator = [[CBAccelerator alloc] init];
+    accelerator.elementID = CEEarthControllerElementAccelerator;
+    accelerator.ratio = 0.75; // 75% of entire screen width
+    
+    // Root container
+    
+    CBHorizontalBox *rootBox = [[CBHorizontalBox alloc] init];
+    rootBox.elementID = CEEarthControllerElementRoot;
+    rootBox.ratio = 1;
+    rootBox.items = [NSArray arrayWithObjects:zoomBox, accelerator, nil];
     
     // Context model
-    CBLayout *layout = [[CBLayout alloc] initWithRoot:box];
+    CBLayout *layout = [[CBLayout alloc] initWithRoot:rootBox];
     CBContext *context = [[CBContext alloc] initWithID:CE_EARTH_CONTEXT layout:layout];
     
     // Create context manager and register it
@@ -62,7 +81,7 @@
 
 - (void)manager:(CBContextManager *)manager didReceiveEvent:(CBEvent *)event
 {
-    if (event.elementID == 1) {
+    if (event.elementID == CEEarthControllerElementAccelerator) {
         NSDictionary *content = event.content;
         
         // TODO: clients should normalise acceleration values before transmitting them
@@ -71,6 +90,10 @@
         
         [self.earthViewController panX:[[content objectForKey:@"x"] doubleValue] * multiplier
                                      y:[[content objectForKey:@"y"] doubleValue] * multiplier];
+    } else if (event.elementID == CEEarthControllerElementZoomIn) {
+        [self.earthViewController zoomIn];
+    } else if (event.elementID == CEEarthControllerElementZoomOut) {
+        [self.earthViewController zoomOut];
     }
 }
 
